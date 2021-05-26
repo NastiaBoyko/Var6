@@ -1,0 +1,62 @@
+﻿<Window x:Class="ExpenseList.AddExpenseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExpenseList" d:DataContext="{d:DesignInstance Type=local:AddExpenseViewModel}"
+        mc:Ignorable="d"
+        Title="AddExpenseWindow" Height="340" Width="450"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MinWidth="110" Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition MinWidth="110" Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="0" Background="WhiteSmoke">
+                <Label HorizontalAlignment="Center" Margin="0,13,0,0">Назва предмета</Label>
+                <Label HorizontalAlignment="Center">Дата</Label>
+                <Label HorizontalAlignment="Center">Час</Label>
+                <Label HorizontalAlignment="Center"></Label>
+                <Label HorizontalAlignment="Center">Номер чека</Label>
+                <Label HorizontalAlignment="Center">Вартість</Label>
+                <Label HorizontalAlignment="Center">Місце витрати</Label>
+            </StackPanel>
+            <DockPanel Grid.Column="4" Background="WhiteSmoke" LastChildFill="False">
+                <TextBox DockPanel.Dock="Top" Text="{Binding Expense.PurchaseName}" Template="{StaticResource textBoxTemplate}" Margin="0,10,0,0"></TextBox>
+                <DatePicker DockPanel.Dock="Top" SelectedDate="{Binding Expense.PurchaseTime}" Margin="20,0"></DatePicker>
+                <Grid DockPanel.Dock="Top" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" >Години</Label>
+                        <Label Grid.Column="1" >Хвилини</Label>
+                        <Label Grid.Column="2">Секунди</Label>
+                </Grid>
+                <Grid DockPanel.Dock="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Grid.Column="0" Template="{StaticResource textBoxTemplate}" Text="{Binding Hours}"></TextBox>
+                    <TextBox Grid.Column="1" Template="{StaticResource textBoxTemplate}" Text="{Binding Minutes}"></TextBox>
+                    <TextBox Grid.Column="2" Template="{StaticResource textBoxTemplate}" Text="{Binding Seconds}"></TextBox>
+                </Grid>
+                <TextBox DockPanel.Dock="Top" Text="{Binding Expense.TicketNumber}" Template="{StaticResource textBoxTemplate}"></TextBox>
+                <TextBox DockPanel.Dock="Top" Text="{Binding Expense.Price}" Template="{StaticResource textBoxTemplate}"></TextBox>
+                <TextBox DockPanel.Dock="Top" Text="{Binding Expense.ShopName}" Template="{StaticResource textBoxTemplate}"></TextBox>
+
+                <Button Background="Tomato" Margin="20 20 20 0" DockPanel.Dock="Top" Command="{Binding AddNewExpenseCommand}" Style="{StaticResource actionBtn}">Додати витрату</Button>
+
+            </DockPanel>
+            <GridSplitter HorizontalAlignment="Center"
+                      VerticalAlignment="Stretch"
+                      Width="2" Grid.Column="1" Background="#FF7F50"></GridSplitter>
+        </Grid>
+    </DockPanel>
+</Window>

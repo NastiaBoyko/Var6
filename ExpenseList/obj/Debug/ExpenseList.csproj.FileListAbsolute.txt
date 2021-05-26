@@ -1,0 +1,36 @@
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\bin\Debug\ExpenseList.exe.config
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\bin\Debug\ExpenseList.exe
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\bin\Debug\ExpenseList.pdb
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.csprojAssemblyReference.cache
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\MainWindow.g.cs
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\App.g.cs
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList_MarkupCompile.cache
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList_MarkupCompile.lref
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\MainWindow.baml
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.g.resources
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.Properties.Resources.resources
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.csproj.GenerateResource.cache
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.csproj.CoreCompileInputs.cache
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.exe
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\ExpenseList.pdb
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\App.baml
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\AddExpenseWindow.g.cs
+D:\Users\Mike\Desktop\ExpenseList\ExpenseList\obj\Debug\AddExpenseWindow.baml
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\bin\Debug\ExpenseList.exe.config
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\bin\Debug\ExpenseList.exe
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\bin\Debug\ExpenseList.pdb
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.csprojAssemblyReference.cache
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\AddExpenseWindow.g.cs
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\MainWindow.g.cs
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\App.g.cs
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList_MarkupCompile.cache
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList_MarkupCompile.lref
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\App.baml
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\AddExpenseWindow.baml
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\MainWindow.baml
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.g.resources
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.Properties.Resources.resources
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.csproj.GenerateResource.cache
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.exe
+C:\Users\Анастасия Бойко\Downloads\ExpenseList\ExpenseList\obj\Debug\ExpenseList.pdb
